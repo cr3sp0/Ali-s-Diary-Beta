@@ -1,0 +1,33 @@
+:root {
+  line-height: 1.5;
+  font-weight: 400;
+  background-color: antiquewhite;
+  
+  --page-width: 70rem;
+
+  --title-h: 5rem;
+  --title-font-d: 3rem;
+  --nav-h: 3rem;
+  --border-home: .1rem;
+  --nav-font-d: 1.25rem;
+
+  --home-article-h: 32.5rem; 
+  --art-pic-h: 70%;
+  --art-description-line-number: 3;
+  --art-description-line-height:1.5rem;
+}
+
+html, body {
+  margin: 0;
+  display: flex;
+  min-width: 320px;
+  min-height: 100vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+h1, h2, h3, h4, p {
+  padding: 0;
+  margin: 0;
+}
